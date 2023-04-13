@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.from_to_column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container0_row{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+.container1_left_column{
+    margin-top: 16px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content:center ;
+}
+.btn_price{
+    width: 190px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.txt{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.bx{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.input_from{
+    padding: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-indent: 1rem;
+    justify-content: space-between;
+}
+.label{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: left;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: right;
+}
+.price_btns{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content:start;
+    margin-left: 17px;
+}
+.pri{
+    width: 100%;
+    margin-left: 0;
+}
+.btn_add_home{
+    width: 40px;
+    height: 40px;
+    margin-left: 18px;
+    background-color: #436b97;
+    color: white;
+    border-radius: 50%;
+}
+
+.img_card{
+    text-indent: 20;
+    margin-top: 1px;
+    margin-left: 18px;
+    display: grid;
+    place-items: right;
+}

@@ -1,0 +1,30 @@
+.center{
+    margin-left: 100px;
+}
+.container_pucharse{
+    width: 80%;
+    border: 1px solid lightblue;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.img_purchase{
+    width: 10%;
+    text-align: left;
+}
+.title_purchase{
+    text-indent: 2%;
+    width: 80%;
+}
+.quantity{
+    width: 20%;
+}
+.price{
+    text-align: left;
+    width: 20%;
+}
+.total_purchase{
+    width: 5%;
+}

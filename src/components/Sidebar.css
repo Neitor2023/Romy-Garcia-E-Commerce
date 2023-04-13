@@ -1,0 +1,57 @@
+.container_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.img{
+    display: grid;
+    place-items: center ;
+}
+.detail_0_column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title_dele_row{
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: left;
+}
+.dele{
+    text-align: right;
+    color: red;
+    display: grid;
+    place-items: center ;
+}
+.btns_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.btns{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center ;
+}
+.quantit{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center ;
+}
+.total{
+    margin-top: 10px;
+    width: 100%;
+    text-align: right;
+}
